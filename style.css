@@ -1,0 +1,157 @@
+*{
+  margin: 0px;
+  padding:0px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: #91e4c8;
+}
+
+
+/* head */
+
+
+#head{
+  width: 100%;
+  height: 250px;
+  background-color: #0d6228;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid #539b71;
+}
+img{
+  margin-left: 100px;
+  width: 200px;
+  height: 260px;
+}
+#student{
+  display: flex;
+  flex-direction: row;
+}
+#student span{
+  color: rgba(21, 144, 48, 0.616);
+  margin-left: 40px;
+
+}
+#title_one{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#title_two{
+  font-size: 40px;
+  font-weight: 500;
+}
+#info{
+  display: flex;
+  flex-direction: row;
+}
+#info span{
+  font-size: 25px;
+  font-weight: 500;
+  margin-right: 30px;
+  color: rgb(9, 149, 0);
+}
+
+/* body */
+
+
+.paraGraph{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: auto;
+}
+.lightColour{
+  background-color: rgb(158, 239, 186);
+}
+.dark{
+  background-color: rgb(54, 190, 97);
+}
+.title{
+  width: 100px;
+  color: rgba(21, 144, 48, 0.616);
+  margin-left: 60px;
+  font-size: 60px;
+  font-weight: 600;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.title1{
+  font-size: 40px;
+  font-weight: 600;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(9, 149, 0);
+}
+.title2{
+  font-size: 25px;
+  color: rgba(9, 149, 0);
+  font-weight: 600;
+}
+.title3{
+  font-size: 15px;
+  color: rgba(9, 149, 0);
+  font-weight: 600;
+}
+.text{
+  width: 70%;
+  font-size: 20px;
+  color: #4e8b58;
+}
+.text2{
+  font-size: 20px;
+  color: rgba(9, 149, 0);
+
+}
+.main{
+  width: 70%;
+
+}
+.section{
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 40px;
+}
+.box{
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+
+}
+.box div {
+  display: flex;
+  flex-direction: row;
+}
+.box div span{
+  margin-right: 150px;
+  margin-top: 5px;
+  font-size: 20px;
+  color: rgba(9, 149, 0);
+  font-weight: 500;
+}
+
+.showimg .title{
+  display: flex;
+  flex-direction: column;
+}
+.showimg .title img{
+  margin-top: 40px;
+  margin-left: -30px;
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+#img1 img{
+  display: block;
+  width: 450px;
+  height: 900px;
+}
